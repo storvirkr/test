@@ -1,0 +1,21 @@
+.user {
+    margin-bottom: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.albums {
+    display: none; /* Initially hide the albums list */
+    list-style: none;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.albums.active {
+    display: block; /* Show the albums list when active */
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
